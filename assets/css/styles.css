@@ -86,7 +86,7 @@ section {
   }
  
 .fa-instagram, .fa-github {
-    color: white;
+    color: gray;
   }
 
 .about {
@@ -123,6 +123,7 @@ section {
 
 .portfolio img:hover {
     transform: scale(3);
+    transform-origin: center center;
 }
 
 .run-buddy, .code-refactor {
@@ -150,6 +151,7 @@ section {
     border-width: thick;
     margin-bottom: 10%;
     display: flex;
+    flex-shrink: 1;
 }
 
 .contact-info {
@@ -163,4 +165,9 @@ section {
 .contact-info address {
     margin-top: 15px;
     margin-bottom: 25px;
+}
+
+footer {
+    text-align: center;
+    color: gray;
 }
