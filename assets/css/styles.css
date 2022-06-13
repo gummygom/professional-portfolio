@@ -126,7 +126,7 @@ section {
     transform-origin: center center;
 }
 
-.run-buddy, .code-refactor, .pay-up{
+.run-buddy, .code-refactor, .pay-up, .yakety {
     display: inline-block;
     width: 100%;
     margin: 0 auto;
